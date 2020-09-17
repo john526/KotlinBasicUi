@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:id="@+id/linearLogin"
+    android:layout_below="@+id/textForgot"
+    android:layout_height="wrap_content">
+
+        <EditText
+        android:id="@+id/editForgot"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundlogin"
+        android:hint="Email"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

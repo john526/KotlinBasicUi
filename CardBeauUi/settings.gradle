@@ -1,0 +1,2 @@
+rootProject.name='CardBeautUi'
+include ':app'

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/choicegradient"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textChoiceLogin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/choiceround"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:text="Log In"/>
+
+    <View
+        android:id="@+id/viewChoice"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textChoiceLogin"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="4dp"/>
+    <TextView
+        android:textAllCaps="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/viewChoice"
+        android:id="@+id/textChoiceSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:background="@drawable/choiceround"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="SIGN UP"/>
+
+</RelativeLayout>

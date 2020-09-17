@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:background="@color/transparente"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD ?"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:background="@color/transparente"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

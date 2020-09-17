@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomegradient"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayoutMain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="welcome UI"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+    <View
+        android:id="@+id/viewWelcome"
+        android:layout_below="@+id/textWelcome"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/secondTextWelcome"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:text="By TDKF FEV"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

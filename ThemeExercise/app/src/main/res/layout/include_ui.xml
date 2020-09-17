@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TitleFont"
+        android:text="Hello world"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TitleFont"
+        android:layout_marginTop="20dp"
+        android:text="Android / Kotlin"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyle.Color"
+        android:text="Button"/>
+
+    <EditText
+        style="@style/EditTextWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Message ..."/>
+
+    <EditText
+        style="@style/EditTextWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Receive ..."/>
+
+</LinearLayout>

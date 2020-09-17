@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="40dp"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/imageLog"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/textLog"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/imageLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <include layout="@layout/activity_third"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/button1"
+        android:layout_below="@+id/rellay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="true"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:background="@drawable/login"/>
+
+</RelativeLayout>

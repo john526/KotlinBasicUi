@@ -1,0 +1,2 @@
+rootProject.name='RetryFlashScreenLogin'
+include ':app'

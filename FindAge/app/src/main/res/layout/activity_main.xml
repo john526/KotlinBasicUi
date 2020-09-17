@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/editAge"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:hint="Find my Age"
+       android:inputType="number"
+       android:textAllCaps="true"
+       android:textColor="#000"
+       android:layout_marginTop="300dp"
+       android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/viewAge"
+        android:text="Here Find My Age"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonText"
+        android:layout_width="wrap_content"
+        android:text="Find"
+        android:background="@color/colorAccent"
+        android:onClick="buTextEvent"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

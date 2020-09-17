@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#fff</color>
+    <!-- Welcome color -->
+    <color name="welcomeGradStart">#ff512f</color>
+    <color name="welcomeGradEnd">#dd2476</color>
+    <!-- welcome color -->
+
+    <!-- choice login signup color -->
+    <color name="choiceLSGradStart">#e52d27</color>
+    <color name="choiceLSGradEnd">#b31217</color>
+    <!-- choice login signup color -->
+
+    <!-- Login color -->
+    <color name="loginGradStart">#3700b3</color>
+    <color name="loginGradEnd">#b31217</color>
+    <!-- Login color -->
+
+    <!-- Signup color-->
+    <color name="signupGradStart">#314755</color>
+    <color name="signupGradEnd">#26a0da</color>
+    <!-- Signup color -->
+
+    <!-- UI color -->
+    <color name="uiGradStart">#dd2476</color>
+    <color name="uiGradEnd">#5fc3e4</color>
+    <!-- UI color -->
+
+</resources>
